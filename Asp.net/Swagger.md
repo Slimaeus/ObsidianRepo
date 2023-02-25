@@ -4,7 +4,7 @@
 |-|-|-|
 |1| Swashbuckle | 5.6.0|
 
-# 2️⃣Works
+# 2️⃣Steps
 ---
 ## 1. Install Swashbuckle package
 

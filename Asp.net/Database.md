@@ -5,7 +5,7 @@
 |1| Entity Framework | 6.4.4|
 | 2 | Microsoft.AspNet.Identity.EntityFramework | 2.2.3|
 
-# 2️⃣Works
+# 2️⃣Steps
 ---
 ## 1. Create Model
 - Entity interface

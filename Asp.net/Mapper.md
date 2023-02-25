@@ -4,7 +4,7 @@
 |-|-|-|
 |1| AutoMapper | 8.1.1|
 
-# 2️⃣Works
+# 2️⃣Steps
 ---
 ## 1. Create Mapping Profile
 

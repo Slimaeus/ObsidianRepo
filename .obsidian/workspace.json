@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asp.net/Swagger.md",
+                "file": "Asp.net/Dependency Injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asp.net/Swagger.md",
+                "file": "Asp.net/Dependency Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asp.net/Swagger.md"
+                "file": "Asp.net/Dependency Injection.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asp.net/Swagger.md",
+                "file": "Asp.net/Dependency Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,8 +193,10 @@
   },
   "active": "52652ca85863bfb2",
   "lastOpenFiles": [
-    "Asp.net/Mapper.md",
     "Asp.net/Swagger.md",
+    "Asp.net/Mapper.md",
+    "Asp.net/Dependency Injection.md",
+    "Asp.net/Database.md",
     "2. Good Websites/Azure DevOps.md",
     "2. Good Websites/Azure Portal.md",
     "2. Good Websites/CircleCI.md",
@@ -212,12 +214,10 @@
     "0. ToDo/Flutter.md",
     "1. Microservices/ASP.NET Core/Identity Service/Identity Server (Duende Software).md",
     "5. Tips/Flutter.md",
-    "Asp.net/Dependency Injection.md",
     "4. Fantasy Calendar/plugins/fantasy-calendar/data.json",
     "4. Fantasy Calendar/plugins/fantasy-calendar",
     "4. Fantasy Calendar/plugins",
     "4. Fantasy Calendar",
-    "Asp.net/Database.md",
     "Asp.net/Untitled Kanban.md",
     "Asp.net",
     "1. Microservices/Flutter/Animation/Animated Builder.md",
