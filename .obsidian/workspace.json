@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "e3297310c88c18ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "a84e536eb8b63acc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52652ca85863bfb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Architecture Design/I. Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbc5782460d31e23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PlanTogether Web.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97d14eca154c0527",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
+          },
+          {
+            "id": "ac2e533c35706142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Architecture Design/II. Requirement Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5ae2ae90063c5f01",
+    "type": "split",
+    "children": [
+      {
+        "id": "9621377a763a7def",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3ffae24bca43142",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1f05d39ea03082e7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12ab8a2ff47021f9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1cb51ef9ca50a9cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "00b1c66b2403d002",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfc32285ed45e9b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Software Architecture Design/II. Requirement Types.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6cf7b9224a871ad3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d1390bc85f7b833a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Software Architecture Design/II. Requirement Types.md"
+              }
+            }
+          },
+          {
+            "id": "95f2dfce5c6aa425",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          },
+          {
+            "id": "9b7c535fda3bc849",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5e4efdcfd982d271",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          },
+          {
+            "id": "9232a5dadb72c58c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Software Architecture Design/II. Requirement Types.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "fantasy-calendar:Open Large Fantasy Calendar": false
+    }
+  },
+  "active": "ac2e533c35706142",
+  "lastOpenFiles": [
+    "Software Architecture Design/II. Requirement Types.md",
+    "Untitled",
+    "Software Architecture Design/I. Introduction.md",
+    "0. ToDo/DevOps.md",
+    "1. Microservices/Flutter/Animation/Animated Builder.md",
+    "1. Microservices/Flutter/Important Widgets/RefreshIndicator (Loading).md",
+    "app-dev-blueprint.pdf",
+    "DevOps Learning Path.md",
+    "1. Microservices/Flutter/Packages/Important Packages.md",
+    "1. Microservices/Flutter/Pubspec.yaml template.md",
+    "5. Tips/Flutter.md",
+    "Learn Orchestration.md"
+  ]
+}

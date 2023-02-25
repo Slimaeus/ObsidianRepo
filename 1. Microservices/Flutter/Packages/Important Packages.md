@@ -1,0 +1,9 @@
+- provider
+-  intl
+-  http
+-  shared_preferences
+- image_picker: ^0.8.6
+- path_provider: ^2.0.11
+- path: ^1.8.2
+- qflite: ^2.2.3
+- location: ^4.4.0
