@@ -52,9 +52,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9376c24d0749c748",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Architecture Design/III. Important Quality Attributes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -104,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1cb51ef9ca50a9cd",
@@ -121,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Architecture Design/II. Requirement Types.md",
+                "file": "Software Architecture Design/III. Important Quality Attributes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Architecture Design/II. Requirement Types.md"
+                "file": "Software Architecture Design/III. Important Quality Attributes.md"
               }
             }
           },
@@ -183,19 +194,26 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Architecture Design/II. Requirement Types.md",
+                "file": "Software Architecture Design/III. Important Quality Attributes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "38669170c1718b45",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,9 +226,10 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "ac2e533c35706142",
+  "active": "9376c24d0749c748",
   "lastOpenFiles": [
     "Software Architecture Design/II. Requirement Types.md",
+    "Software Architecture Design/III. Important Quality Attributes.md",
     "Untitled",
     "Software Architecture Design/I. Introduction.md",
     "0. ToDo/DevOps.md",
