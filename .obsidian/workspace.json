@@ -13,59 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Architecture Design/I. Introduction.md",
+                "file": "2. Good Websites/Azure DevOps.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "dbc5782460d31e23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PlanTogether Web.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97d14eca154c0527",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
-          },
-          {
-            "id": "ac2e533c35706142",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Architecture Design/II. Requirement Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9376c24d0749c748",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "Software Architecture Design/III. Important Quality Attributes.md",
-                "staged": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2. Good Websites/Azure DevOps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2. Good Websites/Azure DevOps.md"
+              }
             }
           },
           {
@@ -190,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2. Good Websites/Azure DevOps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,20 +179,38 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "9376c24d0749c748",
+  "active": "52652ca85863bfb2",
   "lastOpenFiles": [
+    "2. Good Websites/Azure Portal.md",
+    "2. Good Websites/CircleCI.md",
+    "2. Good Websites/Github.md",
+    "2. Good Websites/Azure DevOps.md",
+    "2. Good Websites/Render.md",
     "Software Architecture Design/III. Important Quality Attributes.md",
     "Software Architecture Design/II. Requirement Types.md",
-    "Untitled",
     "Software Architecture Design/I. Introduction.md",
+    "app-dev-blueprint.pdf",
+    "New Task.md",
+    "DevOps Learning Path.md",
+    "PlanTogether Web.md",
+    "Pasted image 20230221191422.png",
     "0. ToDo/DevOps.md",
+    "0. ToDo/Flutter.md",
+    "1. Microservices/ASP.NET Core/Identity Service/Identity Server (Duende Software).md",
+    "5. Tips/Flutter.md",
+    "Asp.net/Dependency Injection.md",
+    "4. Fantasy Calendar/plugins/fantasy-calendar/data.json",
+    "4. Fantasy Calendar/plugins/fantasy-calendar",
+    "4. Fantasy Calendar/plugins",
+    "4. Fantasy Calendar",
+    "Asp.net/Mapper.md",
+    "Asp.net/Database.md",
+    "Asp.net/Untitled Kanban.md",
+    "Asp.net",
     "1. Microservices/Flutter/Animation/Animated Builder.md",
     "1. Microservices/Flutter/Important Widgets/RefreshIndicator (Loading).md",
-    "app-dev-blueprint.pdf",
-    "DevOps Learning Path.md",
     "1. Microservices/Flutter/Packages/Important Packages.md",
     "1. Microservices/Flutter/Pubspec.yaml template.md",
-    "5. Tips/Flutter.md",
     "Learn Orchestration.md"
   ]
 }
