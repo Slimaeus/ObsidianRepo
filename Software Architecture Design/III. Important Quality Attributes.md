@@ -139,3 +139,42 @@
 					- Common in databases
 					- If we get to a state violating some condition / data, we can <u>roll back to the last correct state</u> in the past
 					- If we detect errors while rolling out new versions of software, we can <u>roll back to the previous version</u>
+
+# 5️⃣SLA, SLO, SLI
+1. SLA - Service Level Agreement
+	- It is a legal contract that represents our quality services such as:
+		- Availability
+		- Performance
+		- Data durability
+		- Time to respond to system failures
+	- It states the penalties and financial consequences, if we breach the contract
+	- The penalties include:
+		- Full / Partial refunds
+		- Subscription / License extensions
+		- Service credits
+	- SLAs exist for:
+		- External paying users (always)
+		- Free external users (sometimes)
+		- Internal users within our company (occasionally)
+	- Internal SLAs don't include any penalties
+		- SLA for free external users makes sense if our system has major issues during a free trial of our service
+		- We compensate those users with a <u>trial extension</u> or <u>credits for future</u>
+		- Companies providing entirely free services don't publish SLA
+2. SLOs - Service Level Objectives
+	- Individual goals set for our system
+	- Each SLO represents a <u>target value / range</u> that our service needs to meet
+	- SLOs include:
+		- Quality attributes from the beginning of the design process
+		- Other objectives of our system
+3. SLIs - Service Level Indicators
+	- Quantitative measure of our compliance with a service-level objective
+	- It is the actual numbers:
+		- Measured using a monitoring service
+		- Calculated from our logs
+	- It can be later compared to our SLOs
+4. Important Considerations
+	1. We shouldn't take every SLI that we can measure in our system and define an objective associated with it
+	2. Promising fewer SLOs is better
+	3. Set realistic goals with a budget for error
+	4. Create a recovery plan for when the SLIs show that we are not meeting our SLOs
+

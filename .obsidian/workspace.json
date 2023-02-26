@@ -132,39 +132,11 @@
             }
           },
           {
-            "id": "95f2dfce5c6aa425",
-            "type": "leaf",
-            "state": {
-              "type": "FANTASY_CALENDAR",
-              "state": {}
-            }
-          },
-          {
             "id": "9b7c535fda3bc849",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
-            }
-          },
-          {
-            "id": "5e4efdcfd982d271",
-            "type": "leaf",
-            "state": {
-              "type": "FANTASY_CALENDAR",
-              "state": {}
-            }
-          },
-          {
-            "id": "9232a5dadb72c58c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Software Architecture Design/III. Important Quality Attributes.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
             }
           },
           {
@@ -176,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -193,14 +165,14 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "8747a865a4a42c4b",
+  "active": "38669170c1718b45",
   "lastOpenFiles": [
+    "Software Architecture Design/III. Important Quality Attributes.md",
     "Asp.net/5. Relationships.md",
     "Software Architecture Design/I. Introduction.md",
     "Asp.net/1. Database.md",
     "Pasted image 20230221191422.png.md",
     "Software Architecture Design/II. Requirement Types.md",
-    "Software Architecture Design/III. Important Quality Attributes.md",
     "Asp.net/3. Mapper.md",
     "Asp.net/2. Dependency Injection.md",
     "Asp.net/4. Swagger.md",
