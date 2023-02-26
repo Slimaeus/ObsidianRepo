@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asp.net/4. Swagger.md",
+                "file": "Asp.net/1. Database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9846b64b5971c777",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Architecture Design/III. Important Quality Attributes.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1cb51ef9ca50a9cd",
@@ -97,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asp.net/4. Swagger.md",
+                "file": "Software Architecture Design/III. Important Quality Attributes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asp.net/4. Swagger.md"
+                "file": "Software Architecture Design/III. Important Quality Attributes.md"
               }
             }
           },
@@ -159,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asp.net/4. Swagger.md",
+                "file": "Software Architecture Design/III. Important Quality Attributes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,39 +205,40 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "52652ca85863bfb2",
+  "active": "9846b64b5971c777",
   "lastOpenFiles": [
+    "Asp.net/5. Relationships.md",
+    "Asp.net/1. Database.md",
+    "Asp.net/2. Dependency Injection.md",
     "Asp.net/3. Mapper.md",
     "Asp.net/4. Swagger.md",
-    "Asp.net/2. Dependency Injection.md",
-    "Asp.net/1. Database.md",
+    "PlanTogether Web.md",
+    "4. Fantasy Calendar/plugins/fantasy-calendar/data.json",
+    "4. Fantasy Calendar/plugins/fantasy-calendar",
+    "4. Fantasy Calendar/plugins",
+    "4. Fantasy Calendar",
+    "Software Architecture Design/III. Important Quality Attributes.md",
+    "Software Architecture Design/II. Requirement Types.md",
+    "Software Architecture Design/I. Introduction.md",
+    "Software Architecture Design/IV. Performance.md",
     "2. Good Websites/Azure DevOps.md",
     "2. Good Websites/Azure Portal.md",
     "2. Good Websites/CircleCI.md",
     "2. Good Websites/Github.md",
     "2. Good Websites/Render.md",
-    "Software Architecture Design/III. Important Quality Attributes.md",
-    "Software Architecture Design/II. Requirement Types.md",
-    "Software Architecture Design/I. Introduction.md",
     "app-dev-blueprint.pdf",
     "New Task.md",
     "DevOps Learning Path.md",
-    "PlanTogether Web.md",
     "Pasted image 20230221191422.png",
     "0. ToDo/DevOps.md",
     "0. ToDo/Flutter.md",
     "1. Microservices/ASP.NET Core/Identity Service/Identity Server (Duende Software).md",
     "5. Tips/Flutter.md",
-    "4. Fantasy Calendar/plugins/fantasy-calendar/data.json",
-    "4. Fantasy Calendar/plugins/fantasy-calendar",
-    "4. Fantasy Calendar/plugins",
-    "4. Fantasy Calendar",
     "Asp.net/Untitled Kanban.md",
     "Asp.net",
     "1. Microservices/Flutter/Animation/Animated Builder.md",
     "1. Microservices/Flutter/Important Widgets/RefreshIndicator (Loading).md",
     "1. Microservices/Flutter/Packages/Important Packages.md",
-    "1. Microservices/Flutter/Pubspec.yaml template.md",
-    "Learn Orchestration.md"
+    "1. Microservices/Flutter/Pubspec.yaml template.md"
   ]
 }
