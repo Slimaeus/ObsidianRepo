@@ -72,8 +72,6 @@
 ## 4️⃣ Software Development Cycle
 ---
 
-![[Pasted image 20230221191422.png]]
-
 ### ⚔ Challenges of Software Architecture
 - We <u>cannot</u> prove Software Architecture to be either:
 	- Correct
