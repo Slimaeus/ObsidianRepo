@@ -41,3 +41,47 @@
 		- CPU load in each data center
 		- Best-estimated response time
 		- Bandwidth between user and the data center
+# 2️⃣Message Broker
+---
+## 💪Motivation
+---
+### ❌Synchronous Communication - Drawbacks
+1. Both application instances have to remain healthy and maintain this connectin to complete the transaction
+2. No padding in the system to absorb a sudden increase in trafic or load
+### ✔Message Broker
+1. Remain Healthy and Maintain Connectino
+	- It's easy to achieve this when two services exchange small messages that take short time to process and respond
+	- It can get complex when a service takes a long time to complete its operation and provide a response
+## 📈Benefits and Capabilities
+---
+### 📔Introduce
+- A software architecural block that uses  the <u>queue data structure to store messages</u> between senders and receivers
+- A message broker is used *inside* our system and not exposed externally
+### 📦Capabilities
+- Basic capabilities:
+	- Storing/temporarily buffering the messages
+	- Message routing
+	- Transformation validation
+	- Load balancing
+- Loose Coupling between Senders and Receivers
+	- Entirely *decouple* senders fom the receivers
+	- The fundamental building block of **asynchronous** software architecture
+### 📈Benefits
+- Most message broker implemetations offer the *publish/subscribe pattern* where multiple services can:
+	- Publish messages to particular channel
+	- Subscribe to that channel
+	- Get notified when a new event is published
+## ❕Quality Attributes
+---
+### 😣Fault Tolerance
+- A message broker adds a lot of fault tolerance to our system
+- It allows different services to communicate with each other while some of them may be unavailable temporarily
+- Message brokers prevent messages from being lost
+### 🆙Availability and Scalability
+- The additional fault tolerance helps us provide high availability to our users
+- A message broker can queue up messages when there is a traffic spike
+- It allows our system to scale to high traffic
+### 🎩Performance
+- We pay a little in performance when it comes to latency
+- A message broker adds significant indirection between two services
+- This performance penalty is not too significant for most systems
