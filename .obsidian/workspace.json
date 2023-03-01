@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52652ca85863bfb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Architecture Design/I. Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8747a865a4a42c4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Architecture Design/III. Important Quality Attributes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d7591bc05bf37e6",
+            "id": "a8b1615156776466",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a8b1615156776466",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asp.net/6. Jwt Authentication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dbf4f6fe0e6dfed4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asp.net/6. Jwt Authentication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1cb51ef9ca50a9cd",
@@ -134,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asp.net/6. Jwt Authentication.md",
+                "file": "Software Architecture Design/IV. API Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asp.net/6. Jwt Authentication.md"
+                "file": "Software Architecture Design/IV. API Design.md"
               }
             }
           },
@@ -188,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asp.net/6. Jwt Authentication.md",
+                "file": "Software Architecture Design/IV. API Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,17 +172,18 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "dbf4f6fe0e6dfed4",
+  "active": "a8b1615156776466",
   "lastOpenFiles": [
-    "Microservices with ASP.NET Core/Logging.md",
+    "Software Architecture Design/IV. API Design.md",
     "Asp.net/6. Jwt Authentication.md",
+    "Pasted image 20230227125114.png..md",
+    "Pasted image 20230227124923.png",
+    "Microservices with ASP.NET Core/Logging.md",
     "Microservices with ASP.NET Core",
     "Pasted image 20230227125349.png",
     "Pasted image 20230227125114.png",
-    "Pasted image 20230227124923.png",
     "Asp.net/5. Relationships.md",
     "Software Architecture Design/I. Introduction.md",
-    "Software Architecture Design/IV. API Design.md",
     "Software Architecture Design/III. Important Quality Attributes.md",
     "Asp.net/1. Database.md",
     "Pasted image 20230221191422.png.md",
@@ -257,7 +210,6 @@
     "0. ToDo/Flutter.md",
     "1. Learn Microservices/ASP.NET Core/Identity Service/Identity Server (Duende Software).md",
     "5. Tips/Flutter.md",
-    "Asp.net/Untitled Kanban.md",
     "Asp.net"
   ]
 }

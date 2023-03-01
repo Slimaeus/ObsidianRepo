@@ -102,3 +102,56 @@
 		- If we explicitly version the APIs we can:
 			- Maintain two versions of the API at the same time
 			- Deprecate the older one gradually
+
+# 2️⃣RPC
+---
+## 1. How RPC works
+- Unique Features of RPC
+	- The remote method invocation looks like calling a normal local method in terms of the developer code
+	- This is referred to as <u>location transparency</u>
+	- To the developer of the client application a method executed *locally* or *remotely* looks the same
+	- RPC frameworks support *multiple* programming languages
+	- Applications writter in different programming languages can talk to each other using RPC
+- RPC Over Time
+	- This concept of implementing an API using an RPC has been around for decades
+	- The only thing that changes over time are:
+		- The frameworks
+		- The details of their implementation
+		- Thier efficiency
+	- Our job as API developers is:
+		- To pick an appropriate framework
+		- Define the API and the relevant data types using IDL
+		- Publish that description
+## 2. Benefits of RPC
+- Convenience to the developers of the client applications
+- They can communicate with our system easily by *calling methods on objects* similar to calling *normal, local methods*
+- The details of *communication establishment* or *data transfer between client to server* are abstracted away from the developers
+- Failures in communication with server result in an *error* or *exception* depending on the programming language
+## 3. Drawbacks of RPC
+- Unlike local methods executed on the client-side, remote methods are:
+	- Slower
+		- The client never knows how long those remote method invocations can take
+		- Slowness can be addressed by introducing <u>asynchronous versions</u> for slow methods
+	- Less reliable
+		- The client is remotely running on a computer and is using the network to communicate with our system
+		- Carelessness in designing the API can introduce confusing situations for the client application developers
+- There is no real way for the client to know whether:
+	- The server *received* the message and the *acknowledgement message got lost* in the network
+	- The server *crushed* and *never received* the message
+- To solve the unreliability problem, we can stick to the best practice of <u>making our operations idempotent</u> when possible
+## 4. When to user RPC
+- RPC are used in communication between two backend systems
+- Frameworks that support RPC from frontend clients are less common
+- RPC is a perfect choice for:
+	- API provided to a different company instead of an end user app/web page
+	- Communication between different components within a large system
+	- Abstracting away the network communication and focusing only on the actions the client wants to perform
+- RPC approach would not be a good fit:
+	- Where we don't want to abstract the netwrok communication away
+	- When we want to take direct advantage of HTTP cookies or headers
+- RPC revolves more around actions and less around data/resources
+- In RPC, every action is a new method with a different name and signature
+- We can define many methods/actions without limitation
+- Other styles of APIs can be a better fit when:
+	- Designing an API that is more data-centric
+	- All the operations need are simple CRUD (Create, Read, Update, Delete) operations
