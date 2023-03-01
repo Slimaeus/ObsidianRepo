@@ -155,3 +155,92 @@
 - Other styles of APIs can be a better fit when:
 	- Designing an API that is more data-centric
 	- All the operations need are simple CRUD (Create, Read, Update, Delete) operations
+# 3️⃣REST API
+---
+## 1. Introduction
+- A new style that orginated from a dissertation published by Roy Fielding in 2000
+- REST stands for Representational State Transfer
+- Set of <u>architectural constraints</u> and <u>best practices</u> for defining APIs for the web
+- It is NOT a <u>standard</u> or a <u>protocol</u>
+- It is an architectural style for designing APIs that are easy for our clients to use and understand
+- It makes it easy for us to build a system with quality attributes such as:
+	- Scalability
+	- High availability
+	- Performance
+- An API that obeys the REST architectural constraints is called a RESTful API
+- REST API is dynamic in nature
+- In RPC, the actions the client can take regardless of its state are statically defined ahead of time by IDL
+- In RESTful APIS, this interface is a lot more dynamic through **Hypermedia as the Engine of the Application State** (HATEOAS)
+- Achieved by accompanying a state representation response to the client with hypermedia links
+## 2. REST API Quality Attributes
+1. Statelessness
+	- The server is stateless
+	- It does NOT maintain any session information about client
+	- Each message should be served in isolation without any information about previous requests
+2. Cacheablitity
+	- The server has to either explicitly / implicitly define each response as either:
+		- Cacheable
+		- Non-cacheable
+## 3. Named Resources
+- Each resouce is <u>named</u> and <u>addressed</u> using a **URI** (Uniform Resource Identifier)
+- The resources are organized in a hieranchy
+- Each resource is either:
+	- Simple resource
+	- Collection resource
+- The hierarchy is represented using "/"
+- **A simple resource:**
+	- Has a state
+	- Can contain one/more sub-resources
+- **A collection resource**
+	- Contains a list of resources of the <u>same type</u>
+- Example
+	- Simple Resource of Type Movie: http://best-movies-service/movies/movie-01
+	- Collection Resource: http://best-movies-service/movies/movie-01/directors, .../movies/movie-01/actors/john-smith/profile-picture
+- The representaion of each resource state can be expressed in a variety of ways such as:
+	- An image
+	- A link to a movie stream
+	- An object
+	- An HTML page
+	- Binary blob
+	- Executable code like javascript
+## 4. Resources - Best Practices
+1. Naming our resources using nouns
+	- It makes a clear distinction from the actions that we're going to take
+	- We're going to use verbs for the actions on those resources
+2. Making a distinction between collection resources and simple resources
+	- Plural names for <u>collections</u>
+	- Singular names for <u>simple resources</u>
+3. Giving the resources clear and meaningful names
+	- The users will find it very easy to use our API
+	- It will help prevent incorrect usages and mistakes
+	- Overly generic collection names like: elements, entities, items, instances, values, objects,... should be avoided
+4. The resource identifiers should be unique and URL friendly
+	- They can be used easily and safely on the web
+## 5. REST API Operations
+- Unlike RPCs, the REST API limits the number of methods we can perform on each resource
+- These predefined operations are:
+	- **Creating** a new resource
+	- **Updating** an existing resource
+	- **Deleting** an existing resource
+	- **Getting** the current state of the resource (list of sub-resources in case of collection resource)
+- REST operations are mapped to HTTP methods as follows:
+	- **Create** a new resource => POST
+	- **Update** an existing resource => PUT
+	- **Delete** an existing resource => DELETE
+	- **Get** the state of a resource
+	- **List** the sub-resources of a collection => GET
+- In some situations, we defne additional custom methods
+- HTTP Methods - Guarantees
+	1. **GET** method is considered **safe** - applying it to a resource would not change its state
+	2. **GET, PUT, DELETE** methods are **idempotent** - applying them multiple tiems would result in the same state change as applying them once
+	3. **GET** requests are considered cacheable by default
+	4. Responses to **POST** requests can be made cacheable
+- Seding Additional Infromation
+	- To send additional information to our system as part of a **POST** or **PUT** command use:
+		- JSON
+		- XML
+## 6. Defining REST API Step by Step
+1. Identifying Entities
+2. Mapping Entities to URIs
+3. Defining Resource's Representations
+4. Assigning HTTP Methods To Operations on Resources
