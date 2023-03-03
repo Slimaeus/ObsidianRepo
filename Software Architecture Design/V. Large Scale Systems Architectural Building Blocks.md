@@ -85,3 +85,47 @@
 - We pay a little in performance when it comes to latency
 - A message broker adds significant indirection between two services
 - This performance penalty is not too significant for most systems
+# 3️⃣API Gateway
+---
+## 📈Motivation
+---
+### 🧩Consequences of Splitting a Service
+- The single API now split into *multiple APIs*
+- So now we need to:
+	- Update the frontend code to be aware of the internal organization of our system
+	- Make calls to different services on the browser depending on the taks
+## 🏷Definition, Benefits and Quality Attributes
+---
+#### ❓Definition
+- The API Gateway follows a software architecture pattern called *API composition*
+- We compose all the APIs of all our services into one single API
+- The client applications can call one single service
+#### 🎁Benefits
+1. Seamless internal modifications/Refactoring
+2. Consolidating all security, authorization and authentication in a single place
+3. Request Routing
+	- We save the overhead of authentication every request from the user at each service by performing it in a single place
+	- We can also save the user from making multiple requests to the different services
+4. Static content and response caching
+5. Monitoring and Alerting
+6. Protocol Translation
+## ❗ Considerations and Anti-Patterns
+---
+1. API Gateway shouldn't contain any business logic
+	- The main purpose of an API Gateway is:
+		- API composition
+		- Routing requests to different services
+	- Following the anti-pattern of adding business logic to our API Gateway will make it too smart
+	- We may end up again with a single service that:
+		- Does all the work
+		- Contains an unmanageable amount of code
+	- This was the problem we wanted to solve initially by splitting our system into *multiple services*
+2. API Gateway may become a Single Point of Failure
+	- We can solve: Scalability, Availability, Performance by deploying multiple instances of API Gateway and placing them all behind an *load balancer*
+	- Our entire system becomes unavailable to the client if:
+		- We push a bad release
+		- Introduce a bug that may crush the API Gateway
+	#### ❓What to do to avoid a Single Point of Failure
+	- Eliminate any possibility of human error
+	- Deploy new releases to the API Gateway with caution
+3. Avoid bypassing API Gateway from external services
