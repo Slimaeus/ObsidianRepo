@@ -129,3 +129,86 @@
 	- Eliminate any possibility of human error
 	- Deploy new releases to the API Gateway with caution
 3. Avoid bypassing API Gateway from external services
+# 4️⃣CDN
+---
+## 📈Motivation
+---
+- A study by Google Analytics indicated: 53% of mobile users abandoned a website if it took longer than <b><u>3 seconds</u></b> to load
+- We can improve our system's performance by:
+	- Replicating our service
+	- Running it on more data centers
+- <u>But</u> our service is not what the users need closer
+- The static content like: Images, HTML pages, Javascript, CSS files, Videos are what we need to get closer to the users to get them to load faster
+## 🏷Definition, Benefits and Quality Attributes
+---
+#### ❓Definition
+- Globally distributed network of servers
+- Located in strategic places
+- Main purpose: Speeding up the delivery of content to end-users
+#### 🤔Problem
+- CDNs were originally created to address the problem referred to as the "Wide World"
+- It is a term describing a bad user experience caused by:
+	- Slow internet connection
+	- Overloaded web server
+#### 😃Advantages
+- CDNs provide service by <u>caching</u> our website content on their *edge servers* which are relocated at different *Points of Presence* (PoP)
+- Those *edge servers* are:
+	- Physically closer to the user
+	- More strategically located in terms of network infrastructure
+- This allows them to:
+	- Transfer content much quicker to the user
+#### 📃Types of Content
+- CDNs can be userd to deliver:
+	- Images
+	- Text
+	- CSS
+	- Javascript files
+	- Video streams (live and on-demand)
+#### ✊Use Cases
+- CDNs are used by *digital service companies* that interact with users through website/mobile app like:
+	- E-commerce services
+	- Financial institutions
+	- Technology and software as a service (SaaS) companies
+	- Media companies delivering video streaming/news
+	- Social media
+#### 👍Quality Attributes
+- Performance - Faster page loads
+- High availability - issues/slowness are less noticeable
+- Security - Protection against *Distributed Denial of Service* attacks (DDos)
+#### ➕Addtional Techniques
+- CDN providers use *faster* and *more optimized* hard drives to store the cached content
+- Reduce bandwidth by compressing the content delivered using algorithms like:
+	- Gzip
+	- Minification of javascript files
+## 🤔Content Publishing Strategies
+---
+### 1. Pull Strategy
+- We need to tell the content delivery network provider:
+	- Which content we want on our website to be cached
+	- How often this cache needs to be invalidated 
+- It is configured by setting a Time To Live (TTL) property on each asset/type of asset
+- Advantages
+	- If our content doesn't change frequently we can simply push it <u>once</u> to the CDN
+	- This significantly reduces:
+		- The traffic to our system
+		- The burden for our system to maintain high availability
+	- Even if our system goes down temporarily, users will still get all the data from the CDN and won't be affected
+- Drawbacks
+	- We still need to maintain a general high availability of our system
+	- The user will get an error if:
+		- Certain assets expire on the CDN
+		- Our system isn't available for the CDN to pull a new version
+### 2. Push Strategy
+- Some content delivery network providers support this model <u>directly</u>
+- Others enable this strategy by <u>settign along TTL</u> for our assets so that the cache never expires
+	- Whenever we want to publish a new version we purge the content from the cache
+	- This forces the CDN to fetch that content from our servers whenever a user requests it
+- Advantages
+	- Lower maintenance on our part
+	- No need to keep the CDN caches up to date once we configure:
+		- Which assets need to be cached
+		- How often the assets need to expire
+	- Everything is taken care of by the CDN provider
+- Drawbacks
+	- The first users to use an asset that hasn't been cached yet will have a longer latency
+	- CDN needs time to fetch the non-cached asset from our system
