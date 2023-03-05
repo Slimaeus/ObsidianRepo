@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md",
+                "file": "Asp.net/1. Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1cb51ef9ca50a9cd",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md",
+                "file": "Asp.net/1. Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md"
+                "file": "Asp.net/1. Database.md"
               }
             }
           },
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md",
+                "file": "Asp.net/1. Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,6 +173,7 @@
   },
   "active": "138ddf3548f337ef",
   "lastOpenFiles": [
+    "Software Architecture Design/I. Introduction.md",
     "Software Architecture Design/VI. Data Storage at Global Scale.md",
     "Software Architecture Design/V. Large Scale Systems Architectural Building Blocks.md",
     "ASP.NET Core/Class.md",
@@ -187,7 +187,6 @@
     "Pasted image 20230227125349.png",
     "Pasted image 20230227125114.png",
     "Asp.net/5. Relationships.md",
-    "Software Architecture Design/I. Introduction.md",
     "Software Architecture Design/III. Important Quality Attributes.md",
     "Asp.net/1. Database.md",
     "Pasted image 20230221191422.png.md",
