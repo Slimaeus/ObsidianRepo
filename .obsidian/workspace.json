@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c217e2ce8ab36d48",
+        "id": "9ff93d39fb81ff47",
         "type": "tabs",
         "children": [
           {
-            "id": "138ddf3548f337ef",
+            "id": "9f4d337c8b8c0adc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asp.net/1. Database.md",
+                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1cb51ef9ca50a9cd",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asp.net/1. Database.md",
+                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asp.net/1. Database.md"
+                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md"
               }
             }
           },
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asp.net/1. Database.md",
+                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,24 +172,31 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "138ddf3548f337ef",
+  "active": "9f4d337c8b8c0adc",
   "lastOpenFiles": [
-    "Software Architecture Design/I. Introduction.md",
+    "Microservices with ASP.NET Core/Relational Databases.md",
     "Software Architecture Design/VI. Data Storage at Global Scale.md",
-    "Software Architecture Design/V. Large Scale Systems Architectural Building Blocks.md",
+    "Templates/Document Template.md",
+    "Draft/Draft 1.md",
+    "Microservices with ASP.NET Core/Logging.md",
+    "Microservices with ASP.NET Core/Message Brokers.md",
+    "Software Architecture Design/Untitled.md",
+    "Draft",
+    "Templates",
     "ASP.NET Core/Class.md",
+    "Asp.net/1. Database.md",
+    "Software Architecture Design/I. Introduction.md",
+    "Software Architecture Design/V. Large Scale Systems Architectural Building Blocks.md",
     "ASP.NET Core",
     "Software Architecture Design/IV. API Design.md",
     "Asp.net/6. Jwt Authentication.md",
     "Pasted image 20230227125114.png..md",
     "Pasted image 20230227124923.png",
-    "Microservices with ASP.NET Core/Logging.md",
     "Microservices with ASP.NET Core",
     "Pasted image 20230227125349.png",
     "Pasted image 20230227125114.png",
     "Asp.net/5. Relationships.md",
     "Software Architecture Design/III. Important Quality Attributes.md",
-    "Asp.net/1. Database.md",
     "Pasted image 20230221191422.png.md",
     "Software Architecture Design/II. Requirement Types.md",
     "Asp.net/3. Mapper.md",
@@ -203,13 +211,8 @@
     "2. Good Websites/Azure DevOps.md",
     "2. Good Websites/Azure Portal.md",
     "2. Good Websites/CircleCI.md",
-    "2. Good Websites/Github.md",
-    "2. Good Websites/Render.md",
     "app-dev-blueprint.pdf",
-    "New Task.md",
-    "DevOps Learning Path.md",
     "Pasted image 20230221191422.png",
-    "0. ToDo/DevOps.md",
     "Asp.net"
   ]
 }

@@ -72,7 +72,56 @@ A transaction is a sequence of operations that for an external observer should a
 - Read performance is the most important quality that we need for providing good user experience
 # 2️⃣Non-Relational Databases
 ---
-
+## 📔Introduction to Non-Relational Databases
+---
+### 📚History
+- A relatively new concept
+- Became popular in the mid-2000s
+- Solved the drawbacks of relational databases
+### 🤝Logical Grouping
+- They allow to logically group a set of recourds *without* forcing all of them to have the same strucutre
+- We can easily add additional attributes to one/multiple records *without* affecting the already existing records
+### 🔳Support Native Data Structure
+- Don't store data in tables
+- Support more native data structures to programming languages
+- This eliminates the need for an ORM (Object Relational Mapping)
+### Efficient Storage🆚Fast Queries
+- Relational Databases: designed for <u>effecient storage</u>
+- Non-Relational Databases: designed for <u>faster queries</u>
+### 🔁Trade-offs
+- When we allow *flexible schemas* we lose the ability to easily analyze those records
+- Analyzing multiple groups of records (join operations) also becomes hard
+- ACID transactions are rarely supported by non-relational databases
+## 📃Categories of Non-Relational Databases
+---
+### 🔑Key/Value Store
+- Key/Value store can be seen as a large-scale *hashtable* or *dictionary*
+- It has very few constraints on the type of values we have for each key
+### 📄Document Store
+- We can store collections of documents, with more structure inside each document
+- Each document is an object with different attributes
+- Those attributes can be of different types
+- Documents inside a document store are easily mapped to objects inside a programming language
+### 📊Graph Database
+- Extension of a document store with additional capabilities to: Link, Traverse, Analyze multiple records more efficiently
+- Optimized for navigating and analyzing relationships between different records
+- Use Cases
+	- Fraud detection:
+		- Multiple logical users identified as same person trying to initiate multiple transactions using same email/computer
+	- Recommendation engines:
+		- Recommend new products to users based on past purchase history or friends of the user 
+## ✅When to choose a Non-Relational Database
+---
+- Analyze our use case
+- Figure out which properties of a database are:
+	- Most important
+	- Can be compromised
+- Non-relational databases:
+	- Superior when it comes to query speed
+	- Perfect choice for caching
+- Handling real-time big data
+- Data is not structed
+- Different records can contain different attributes
 # 3️⃣Techniques to Improve Performance, Availability & Scalability of Databases
 ---
 
