@@ -192,5 +192,13 @@ Partitioning is not only used for databases but can also be used to *logically s
 - All three of them are commonly used together in most real-life large-scale systems
 # 4️⃣CAP Theorem
 ---
+## ❓Intuition
+---
+
+### 📔Definitions and Terminology
+---
+
+### 🎩Interpretation and Considerations
+---
 
 # 5️⃣Scalable Unstructured Data Storage
