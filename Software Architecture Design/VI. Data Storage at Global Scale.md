@@ -124,7 +124,72 @@ A transaction is a sequence of operations that for an external observer should a
 - Different records can contain different attributes
 # 3️⃣Techniques to Improve Performance, Availability & Scalability of Databases
 ---
-
+## 🔢Database Indexing
+---
+- Speed up retrieval operations
+- Locate the desired records in a sub linear time
+- Without indexing, those operations may:
+	- Require a "full table scan"
+	- Take a long time for large tables
+🎩Full Table Scan - Pefromance
+- Those operations if performed *very frequently* or *on large tables* can:
+	- Become a performance bottleneck
+	- Impact our user's experience
+### 📔Definition
+`A database index is a helper table, created from a particular column/group of columns`
+### 🔲Data Structures
+- Once the index table is created we can put it inside a data structure like:
+	- Hashmap
+	- Self-balanced tree (B-Tree)
+### 🖇Composite Index
+- Indexes can be formed not only from *one column* but from a *set of columns*
+### 🔁Indexing Tradeoffs
+- **Read queries** are faster in the expanse of:
+	- Additional space for storing the index tables
+	- Speed of write operations
+ - Note on Other Types of Databases
+	 - Indexing is also used extensively in Non-Relational Databases such as document stores
+## ➕Database Replication
+---
+### 🔁Tradeoffs
+- Higher complexity when it comes to operations like:
+	- Write
+	- Update
+	- Delete
+- Is is not a trivial task to make sure that concurrent modifications to the same records:
+	- Don't conflict which each other
+	- Provide guarantees in terms of consistency and correctness
+### ✨Distributed Database
+- Difficult to design, configure and manage on a high scale
+- Require competency in the field of distributed systems
+### 🤝Support
+- Database replication is supported by all modern databases
+	- Non-Relational Databases: Incorporate replication out-of-the-box
+	- Relational Databases: Support varies among different implementations
+## ⚙Database Partitioning/Sharding
+---
+### 📈Advantages
+- We can scale our database to store more data
+- Different queries can be performed completely in <u>parallel</u>
+- We get both:
+	- Better Performance
+	- Higher Scalability
+### 🔁Drawback
+- Database sharding turns our database into a distributed database
+### ❎Non-Relational Databases
+- First-class feature in all Non-Relational Databases because:
+	- Records are decoupled from each other
+	- Storing the records on different computers is more natural and easier to implement
+### ✅Relational Databases
+- In Relational Databases, the support for partitioning depends on the implementation
+- Queries involving multiple records are common - Spreading them across multiple machines is challenging to implement
+- When choosing a Relational Database for a use case involving high volume of data, make sure that partitioning is well supported
+### 🏗Infrastructure Partitioning
+Partitioning is not only used for databases but can also be used to *logically split our infrastructure*
+### 📝Final Notes
+- Indexing, Replication and Partitioning are completely orthogonal to each other
+- We don't need to choose one over the other
+- All three of them are commonly used together in most real-life large-scale systems
 # 4️⃣CAP Theorem
 ---
 
