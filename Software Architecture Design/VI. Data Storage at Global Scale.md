@@ -194,11 +194,88 @@ Partitioning is not only used for databases but can also be used to *logically s
 ---
 ## ❓Intuition
 ---
+"In the presence of a Network Partition, a distributed database cannot guarantee both Consistency and Availability and has to choose <u>only one</u> of them."
 
+### 👉Choices
+- Forces our database to a choice <u>only</u> when there is a *network partition*
+- Majority of the tiem we can easily provide *both* consistency and availability when:
+	- There is no network partition
+	- Our replicas can freely communicate with each other
 ### 📔Definitions and Terminology
 ---
-
+### 🏷Terminology
+#### C = Consistency
+"Every read request receives either the most recent write or an error"
+- A Consistent Database will return the value of the record that corresponds to the *most recent write operation*
+- All clients see the same value at the same time regardless of which instance of the database they talk to
+#### A = Availability
+"Every request receives a non-error response, without the guarantee that it contains the most recent write"
+- Different clients may get different versions of a particular record
+- All requests return successfully with a *valid value*
+#### P = Partition Tolerance
+"The system continues to operate despite an arbitrary number of messages being lost or delayed by the network between different computers"
 ### 🎩Interpretation and Considerations
----
-
+### 🤯Interpretations
+- CAP Theorem tells us that when we either choose or configure a database we have to <u>drop one</u> of those three properties:
+	- CA - no Partition Tolerance
+	- CP - no Consistency
+	- AP - no Availability
+#### ⏺Centralized Database
+- With a Centralized Database we can avoid network partitions
+- But with a high amount of *data* and *query volume*, it cannot scale
+- If we do choose to go the *distributed* route, we have to also choose Partition Tolerance
+- Thus, we have to choose to either drop Availability or Consistency
 # 5️⃣Scalable Unstructured Data Storage
+---
+## ❎Unstructured Data
+---
+- Data that doesn't follow a particular structure, schema, or model
+### 🌌Where to Store Unstructured Data?
+- Some databases allow storing *blobs* (Binary large object)
+- Relational/non-relational databases are <u><i>not optimized</i></u> for unstructured data
+- Databases have size limits on binary objects (~megabytes)
+## 🤏Use cases
+---
+### 👤Upload User Data
+### 📥Backup and Archiving
+### 🕸Web Hosting
+### 🤖Machine Learning and Big Data Analytics
+### 🛠Main Features
+- Data sets are very big
+- Each file/object is very big
+## ⚙Distributed File System (DFS)
+---
+### 📈Benefits
+- No need for a speacial API
+- We can modify files easily
+	- Examples:
+		- Modify a document
+		- Append to the end of a log/video file
+- Very efficient and high performance IO operations
+### 🛑Limitations
+- Number of files is limited
+- No easy access through web API (HTTP + REST)
+## 🏪Object Store / Blob Store
+---
+### 📈Benefits
+- Scalable storage solution for storing unstructured data at internet scale
+	- <u><b>Linear scalability</b></u>
+- <u><b>No limit</b></u> to the number of objects we can store
+- Very <u><b>high limit</b></u> on a single object size (~ 5 - 10 Terabytes)
+- Provides an HTTP + <u><b>REST API</b></u> 
+- Supports for <u><b>Versioning</b></u> out of the box
+### ⚙More Options
+- Sometimes <u>cloud-based</u> Object Stores are not an option because of:
+	- **Budget** constraints
+	- **Legal** constraints
+	- **Performance** constraints
+- We can run <u>On-Premise</u> Object Store using:
+	- **Open Source** Object Stores
+	- **Third-party** managed solutions
+### 📉Drawbacks
+- Objects are immutable
+	- We can only replace an existing object with a new version
+	- Has negative performance implications
+- No easy file system-like access
+	- Access through an SDK or REST API
+- Lower IO performance comparing to a Distributed File System
