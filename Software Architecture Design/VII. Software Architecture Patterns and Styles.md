@@ -190,3 +190,14 @@
 - When Monolithic Architecture stops working, we should consider Microservices
 # 4️⃣Event Driven Architecture
 ---
+## 🏷Introduction
+---
+
+## 🌟Benefits
+---
+
+## 🎉Event Sourcing Pattern
+---
+
+## 💦CQRS Pattern
+---
