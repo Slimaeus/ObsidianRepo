@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4dbfc6ac5d84a5f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Architecture Design/VII. Software Architecture Patterns and Styles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md",
+                "file": "Software Architecture Design/VII. Software Architecture Patterns and Styles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md"
+                "file": "Software Architecture Design/VII. Software Architecture Patterns and Styles.md"
               }
             }
           },
@@ -140,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Architecture Design/VI. Data Storage at Global Scale.md",
+                "file": "Software Architecture Design/VII. Software Architecture Patterns and Styles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,15 +185,15 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "38669170c1718b45",
+  "active": "4dbfc6ac5d84a5f6",
   "lastOpenFiles": [
     "Software Architecture Design/VI. Data Storage at Global Scale.md",
+    "Software Architecture Design/VII. Software Architecture Patterns and Styles.md",
     "Microservices with ASP.NET Core/Relational Databases.md",
     "Templates/Document Template.md",
     "Draft/Draft 1.md",
     "Microservices with ASP.NET Core/Logging.md",
     "Microservices with ASP.NET Core/Message Brokers.md",
-    "Software Architecture Design/Untitled.md",
     "Draft",
     "Templates",
     "ASP.NET Core/Class.md",
