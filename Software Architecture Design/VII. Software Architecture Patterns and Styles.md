@@ -192,12 +192,46 @@
 ---
 ## 🏷Introduction
 ---
-
+### 🎆Events
+- Instead of :
+	- Direct messages that issue commands
+	- Requests that ask for data
+- We have only <u>events</u>
+- An event is an immutable statement of a fact or a change
+- Examples
+	- Fact Events
+		- User cliking on a digital art
+		- Item being added to a shopping cart
+	- Change Events
+		- Player of a video game
+		- IoT device (vacuum cleaner)
+### 🧩Components
+- Producer
+- Consumer
 ## 🌟Benefits
 ---
-
+### 🖇Decoupling of Microservices
+- We can decouple microservices effectively as:
+	- Services don't need to know about each other's API
+	- All messages are exchanges asynchronously
+- Benefits:
+	- Higher scalability
+	- More services can be added to the system without any changes
+### ⌛Real Time Stream Analysis
+- Event-Driven Architecture allows us to:
+	- Analys streams of data
+	- Detect patterns
+	- Act upon data in real-time
+- Example:
+	- Fraud Detection Service can detect suspicious activity in a user's account
 ## 🎉Event Sourcing Pattern
 ---
 
 ## 💦CQRS Pattern
 ---
+1. Optimizing a database with high load of Read and Update operations
+	- Concurrent operations to the same records or tables contend with each other making *all* operations slow
+	- We can optimize a distributed database only for one type of operation at the exxpense of the other
+		- Read-intensive workload - Conpromise on slower writes
+		- Write-intensive workload - Compromise on performance of read operations
+2. Joining multiple tables located in separate databases that belong to different microservices
