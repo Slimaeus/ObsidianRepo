@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Architecture Design/VII. Software Architecture Patterns and Styles.md",
+                "file": "Asp.net/6. Jwt Authentication.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1cb51ef9ca50a9cd",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Architecture Design/VII. Software Architecture Patterns and Styles.md",
+                "file": "Asp.net/6. Jwt Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Architecture Design/VII. Software Architecture Patterns and Styles.md"
+                "file": "Asp.net/6. Jwt Authentication.md"
               }
             }
           },
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Architecture Design/VII. Software Architecture Patterns and Styles.md",
+                "file": "Asp.net/6. Jwt Authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +173,8 @@
   },
   "active": "3930485e4c0cb006",
   "lastOpenFiles": [
-    "Software Architecture Design/VIII. Big Data Patterns.md",
     "Software Architecture Design/VII. Software Architecture Patterns and Styles.md",
+    "Software Architecture Design/VIII. Big Data Patterns.md",
     "Software Architecture Design/VI. Data Storage at Global Scale.md",
     "Microservices with ASP.NET Core/Relational Databases.md",
     "Templates/Document Template.md",
