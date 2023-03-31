@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asp.net/7. Configurations.md",
+                "file": "Microservices with ASP.NET Core/Logging.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8aede4a39a982894",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mobx/Basic.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asp.net/7. Configurations.md",
+                "file": "Mobx/Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asp.net/7. Configurations.md"
+                "file": "Mobx/Basic.md"
               }
             }
           },
@@ -152,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asp.net/7. Configurations.md",
+                "file": "Mobx/Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,17 +196,19 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "f7158298860b96ab",
+  "active": "8aede4a39a982894",
   "lastOpenFiles": [
-    "Asp.net/6. Jwt Authentication.md",
+    "Microservices with ASP.NET Core/Logging.md",
+    "Mobx/Basic.md",
+    "Mobx",
     "Asp.net/7. Configurations.md",
+    "Asp.net/6. Jwt Authentication.md",
     "Software Architecture Design/VII. Software Architecture Patterns and Styles.md",
     "Software Architecture Design/VIII. Big Data Patterns.md",
     "Software Architecture Design/VI. Data Storage at Global Scale.md",
     "Microservices with ASP.NET Core/Relational Databases.md",
     "Templates/Document Template.md",
     "Draft/Draft 1.md",
-    "Microservices with ASP.NET Core/Logging.md",
     "Microservices with ASP.NET Core/Message Brokers.md",
     "Draft",
     "Templates",
@@ -222,9 +236,7 @@
     "4. Fantasy Calendar/plugins",
     "4. Fantasy Calendar",
     "Software Architecture Design/IV. Performance.md",
-    "2. Good Websites/Azure DevOps.md",
     "app-dev-blueprint.pdf",
-    "Pasted image 20230221191422.png",
-    "Asp.net"
+    "Pasted image 20230221191422.png"
   ]
 }
