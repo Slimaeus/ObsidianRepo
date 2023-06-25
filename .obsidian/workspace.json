@@ -252,6 +252,8 @@
   "lastOpenFiles": [
     "Docker/Containers.md",
     "Docker/Images.md",
+    "Docker/Volume.md",
+    "Docker/Repository.md",
     "Asp.net/6. Jwt Authentication.md",
     "Docker",
     "Caching.md",
@@ -284,8 +286,6 @@
     "Asp.net/5. Relationships.md",
     "Software Architecture Design/III. Important Quality Attributes.md",
     "Pasted image 20230221191422.png.md",
-    "Software Architecture Design/II. Requirement Types.md",
-    "Asp.net/3. Mapper.md",
     "4. Fantasy Calendar/plugins/fantasy-calendar/data.json",
     "4. Fantasy Calendar/plugins/fantasy-calendar",
     "4. Fantasy Calendar/plugins",
