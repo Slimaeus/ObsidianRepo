@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Network.md",
+                "file": "Docker/Compose.md",
                 "mode": "source",
                 "source": false
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Network.md",
+                "file": "Docker/Compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Network.md"
+                "file": "Docker/Compose.md"
               }
             }
           },
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Network.md",
+                "file": "Docker/Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,9 +250,10 @@
   },
   "active": "d07dbb8e68d40777",
   "lastOpenFiles": [
+    "Docker/Network.md",
+    "Docker/Compose.md",
     "Docker/Containers.md",
     "Docker/Argument.md",
-    "Docker/Network.md",
     "Docker/Environment.md",
     "Docker/Images.md",
     "Docker/Volume.md",
@@ -281,7 +282,6 @@
     "Software Architecture Design/V. Large Scale Systems Architectural Building Blocks.md",
     "ASP.NET Core",
     "Software Architecture Design/IV. API Design.md",
-    "Pasted image 20230227125114.png..md",
     "Pasted image 20230227124923.png",
     "Microservices with ASP.NET Core",
     "Pasted image 20230227125349.png",
