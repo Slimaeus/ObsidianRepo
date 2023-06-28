@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Minikube.md",
+                "file": "Kubernetes/Deployment/Delete.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Minikube.md",
+                "file": "Kubernetes/Deployment/Delete.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Minikube.md"
+                "file": "Kubernetes/Deployment/Delete.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Minikube.md",
+                "file": "Kubernetes/Deployment/Delete.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,8 +181,18 @@
   },
   "active": "c5c4077f4045dced",
   "lastOpenFiles": [
+    "Kubernetes/Deployment/Deployment.md",
+    "Kubernetes/Deployment/Delete.md",
+    "Kubernetes/Service/Delete.md",
+    "Kubernetes/Deployment",
+    "Kubernetes/Service/Service.md",
+    "Kubernetes/Service",
+    "Kubernetes/Undo Update Image.md",
+    "Kubernetes/Rollout History.md",
+    "Kubernetes/Update Deployment.md",
     "Kubernetes/Kubernetes control.md",
     "Kubernetes/Minikube.md",
+    "Kubernetes/Scale.md",
     "Docker/Images.md",
     "Docker/Network.md",
     "Kubernetes",
@@ -203,23 +213,13 @@
     "Microservices with ASP.NET Core/Logging.md",
     "Mobx",
     "Asp.net/7. Configurations.md",
-    "Software Architecture Design/VII. Software Architecture Patterns and Styles.md",
-    "Software Architecture Design/VIII. Big Data Patterns.md",
-    "Software Architecture Design/VI. Data Storage at Global Scale.md",
-    "Microservices with ASP.NET Core/Relational Databases.md",
-    "Templates/Document Template.md",
-    "Draft/Draft 1.md",
-    "Microservices with ASP.NET Core/Message Brokers.md",
     "Draft",
     "Templates",
-    "ASP.NET Core/Class.md",
     "ASP.NET Core",
     "Pasted image 20230227124923.png",
     "Microservices with ASP.NET Core",
     "Pasted image 20230227125349.png",
     "Pasted image 20230227125114.png",
-    "4. Fantasy Calendar/plugins/fantasy-calendar/data.json",
-    "4. Fantasy Calendar/plugins/fantasy-calendar",
     "Pasted image 20230221191422.png"
   ]
 }
