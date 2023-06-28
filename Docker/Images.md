@@ -5,3 +5,4 @@
 - docker rmi images
 - docker rmi prune
 - docker image prune
+- docker tag CURRENT_IMAGE NEW_IMAGE_NAME

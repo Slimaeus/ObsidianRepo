@@ -3,3 +3,5 @@
 	- virtualbox
 	- docker
 	- hyperv
+- minikube delete
+- minikube dashboard

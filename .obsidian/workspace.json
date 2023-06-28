@@ -8,64 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3930485e4c0cb006",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asp.net/6. Jwt Authentication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7158298860b96ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Microservices with ASP.NET Core/Logging.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8aede4a39a982894",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mobx/Basic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d449bf8892d05db3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenID/OpenID.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87abf65312bb73f9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
-            }
-          },
-          {
             "id": "c5c4077f4045dced",
             "type": "leaf",
             "state": {
@@ -77,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,16 +181,17 @@
   },
   "active": "c5c4077f4045dced",
   "lastOpenFiles": [
+    "Kubernetes/Kubernetes control.md",
     "Kubernetes/Minikube.md",
+    "Docker/Images.md",
+    "Docker/Network.md",
     "Kubernetes",
     "Docker/Untitled.md",
     "Docker/Compose.md",
     "Docker/Utilities.md",
-    "Docker/Network.md",
     "Docker/Containers.md",
     "Docker/Argument.md",
     "Docker/Environment.md",
-    "Docker/Images.md",
     "Docker/Volume.md",
     "Docker/Repository.md",
     "Asp.net/6. Jwt Authentication.md",
@@ -271,7 +213,6 @@
     "Draft",
     "Templates",
     "ASP.NET Core/Class.md",
-    "Asp.net/1. Database.md",
     "ASP.NET Core",
     "Pasted image 20230227124923.png",
     "Microservices with ASP.NET Core",
