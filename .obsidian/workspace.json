@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Deployment/Delete.md",
+                "file": "Kubernetes/Deployment/Deploy by file.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Deployment/Delete.md",
+                "file": "Kubernetes/Deployment/Deploy by file.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Deployment/Delete.md"
+                "file": "Kubernetes/Deployment/Deploy by file.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Deployment/Delete.md",
+                "file": "Kubernetes/Deployment/Deploy by file.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,8 +181,9 @@
   },
   "active": "c5c4077f4045dced",
   "lastOpenFiles": [
-    "Kubernetes/Deployment/Deployment.md",
     "Kubernetes/Deployment/Delete.md",
+    "Kubernetes/Deployment/Deploy by file.md",
+    "Kubernetes/Deployment/Deployment.md",
     "Kubernetes/Service/Delete.md",
     "Kubernetes/Deployment",
     "Kubernetes/Service/Service.md",
@@ -212,7 +213,6 @@
     "OpenID",
     "Microservices with ASP.NET Core/Logging.md",
     "Mobx",
-    "Asp.net/7. Configurations.md",
     "Draft",
     "Templates",
     "ASP.NET Core",
