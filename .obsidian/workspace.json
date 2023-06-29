@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Deployment/Deploy by file.md",
+                "file": "Kubernetes/Delete resources by labels.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Deployment/Deploy by file.md",
+                "file": "Kubernetes/Delete resources by labels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Deployment/Deploy by file.md"
+                "file": "Kubernetes/Delete resources by labels.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Deployment/Deploy by file.md",
+                "file": "Kubernetes/Delete resources by labels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,9 +181,12 @@
   },
   "active": "c5c4077f4045dced",
   "lastOpenFiles": [
-    "Kubernetes/Deployment/Delete.md",
+    "Kubernetes/Delete resources by file.md",
+    "Kubernetes/Delete resources by labels.md",
     "Kubernetes/Deployment/Deploy by file.md",
     "Kubernetes/Deployment/Deployment.md",
+    "Kubernetes/Deployment/Delete.md",
+    "Kubernetes/Service/Use File.md",
     "Kubernetes/Service/Delete.md",
     "Kubernetes/Deployment",
     "Kubernetes/Service/Service.md",
@@ -208,10 +211,7 @@
     "Asp.net/6. Jwt Authentication.md",
     "Docker",
     "Caching.md",
-    "Mobx/Basic.md",
-    "OpenID/OpenID.md",
     "OpenID",
-    "Microservices with ASP.NET Core/Logging.md",
     "Mobx",
     "Draft",
     "Templates",

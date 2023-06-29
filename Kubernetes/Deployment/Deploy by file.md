@@ -1,2 +1,2 @@
 # 1️⃣Commands
-- kubectl apply -f YAML_FILE
+- kubectl apply -f deployment.yml
