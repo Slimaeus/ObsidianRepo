@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Delete resources by labels.md",
+                "file": "Kubernetes/Delete all resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Delete resources by labels.md",
+                "file": "Kubernetes/Delete all resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Delete resources by labels.md"
+                "file": "Kubernetes/Delete all resources.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Delete resources by labels.md",
+                "file": "Kubernetes/Delete all resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,8 +181,12 @@
   },
   "active": "c5c4077f4045dced",
   "lastOpenFiles": [
-    "Kubernetes/Delete resources by file.md",
+    "Kubernetes/Persistent Volume/Get.md",
+    "Kubernetes/Delete all resources.md",
+    "Docker/Compose.md",
+    "Kubernetes/Persistent Volume",
     "Kubernetes/Delete resources by labels.md",
+    "Kubernetes/Delete resources by file.md",
     "Kubernetes/Deployment/Deploy by file.md",
     "Kubernetes/Deployment/Deployment.md",
     "Kubernetes/Deployment/Delete.md",
@@ -201,23 +205,19 @@
     "Docker/Network.md",
     "Kubernetes",
     "Docker/Untitled.md",
-    "Docker/Compose.md",
     "Docker/Utilities.md",
     "Docker/Containers.md",
     "Docker/Argument.md",
     "Docker/Environment.md",
     "Docker/Volume.md",
     "Docker/Repository.md",
-    "Asp.net/6. Jwt Authentication.md",
     "Docker",
-    "Caching.md",
     "OpenID",
     "Mobx",
     "Draft",
     "Templates",
     "ASP.NET Core",
     "Pasted image 20230227124923.png",
-    "Microservices with ASP.NET Core",
     "Pasted image 20230227125349.png",
     "Pasted image 20230227125114.png",
     "Pasted image 20230221191422.png"
