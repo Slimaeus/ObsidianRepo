@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Delete all resources.md",
+                "file": "Kubernetes/Env.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Delete all resources.md",
+                "file": "Kubernetes/Env.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Delete all resources.md"
+                "file": "Kubernetes/Env.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Delete all resources.md",
+                "file": "Kubernetes/Env.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,8 +181,9 @@
   },
   "active": "c5c4077f4045dced",
   "lastOpenFiles": [
-    "Kubernetes/Persistent Volume/Get.md",
     "Kubernetes/Delete all resources.md",
+    "Kubernetes/Env.md",
+    "Kubernetes/Persistent Volume/Get.md",
     "Docker/Compose.md",
     "Kubernetes/Persistent Volume",
     "Kubernetes/Delete resources by labels.md",
@@ -210,7 +211,6 @@
     "Docker/Argument.md",
     "Docker/Environment.md",
     "Docker/Volume.md",
-    "Docker/Repository.md",
     "Docker",
     "OpenID",
     "Mobx",
