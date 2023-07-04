@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx/Config/Configurations.md",
+                "file": "Kubernetes/Configuration Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nginx/Config/Configurations.md",
+                "file": "Kubernetes/Configuration Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nginx/Config/Configurations.md"
+                "file": "Kubernetes/Configuration Types.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nginx/Config/Configurations.md",
+                "file": "Kubernetes/Configuration Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,8 +181,9 @@
   },
   "active": "c5c4077f4045dced",
   "lastOpenFiles": [
-    "Kubernetes/Get Port from pods.md",
     "Nginx/Config/Configurations.md",
+    "Kubernetes/Configuration Types.md",
+    "Kubernetes/Get Port from pods.md",
     "Nginx/Config",
     "Nginx",
     "Kubernetes/Env.md",
@@ -212,7 +213,6 @@
     "Docker/Untitled.md",
     "Docker/Utilities.md",
     "Docker/Containers.md",
-    "Docker/Argument.md",
     "Docker",
     "OpenID",
     "Mobx",
