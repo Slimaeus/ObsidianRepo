@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Get Port from pods.md",
+                "file": "Nginx/Config/Steps.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Get Port from pods.md",
+                "file": "Nginx/Config/Steps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Get Port from pods.md"
+                "file": "Nginx/Config/Steps.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Get Port from pods.md",
+                "file": "Nginx/Config/Steps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,10 +179,13 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "38669170c1718b45",
+  "active": "c5c4077f4045dced",
   "lastOpenFiles": [
-    "Kubernetes/Env.md",
     "Kubernetes/Get Port from pods.md",
+    "Nginx/Config/Steps.md",
+    "Nginx/Config",
+    "Nginx",
+    "Kubernetes/Env.md",
     "Kubernetes/Delete all resources.md",
     "Kubernetes/Persistent Volume/Get.md",
     "Docker/Compose.md",
@@ -210,13 +213,10 @@
     "Docker/Utilities.md",
     "Docker/Containers.md",
     "Docker/Argument.md",
-    "Docker/Environment.md",
     "Docker",
     "OpenID",
     "Mobx",
     "Draft",
-    "Templates",
-    "ASP.NET Core",
     "Pasted image 20230227124923.png",
     "Pasted image 20230227125349.png",
     "Pasted image 20230227125114.png",
