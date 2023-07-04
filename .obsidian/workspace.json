@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx/Config/Steps.md",
+                "file": "Nginx/Config/Configurations.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nginx/Config/Steps.md",
+                "file": "Nginx/Config/Configurations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nginx/Config/Steps.md"
+                "file": "Nginx/Config/Configurations.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nginx/Config/Steps.md",
+                "file": "Nginx/Config/Configurations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
   "active": "c5c4077f4045dced",
   "lastOpenFiles": [
     "Kubernetes/Get Port from pods.md",
-    "Nginx/Config/Steps.md",
+    "Nginx/Config/Configurations.md",
     "Nginx/Config",
     "Nginx",
     "Kubernetes/Env.md",
