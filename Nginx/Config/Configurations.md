@@ -92,9 +92,48 @@ http {
                 try_files /file-you-want-to-try =404;
             }
 
-			// Redirect
+			// Redirect <- HERE
 			location /crop {
                 return 307 /fruits;
+            }
+        }
+    }
+```
+# 5️⃣Load balancer
+
+```
+http {
+        include mime.types;
+
+        server {
+            listen YOUR_PORT;
+            root YOUR_ROOT;
+
+			upstream backendserver {
+	            server 127.0.0.1:1111;
+	            server 127.0.0.1:2222;
+	            server 127.0.0.1:3333;
+	            server 127.0.0.1:4444;
+	        }
+
+			location / {
+                proxy_pass http://backendserver/;
+            }
+        }
+    }
+```
+# 6️⃣Reverse Proxy
+```
+http {
+        include mime.types;
+
+        server {
+            listen YOUR_PORT;
+            root YOUR_ROOT;
+
+
+			location /LOCATION {
+                proxy_pass http://192.168.x.x/anything;
             }
         }
     }
