@@ -1,0 +1,1 @@
+[Nginx Reverse Proxy: How to Setup and Configure | PhoenixNAP KB](https://phoenixnap.com/kb/nginx-reverse-proxy)

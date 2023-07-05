@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx/Config/SSL.md",
+                "file": "Nginx/Config/Reverse Proxy.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nginx/Config/SSL.md",
+                "file": "Nginx/Config/Reverse Proxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nginx/Config/SSL.md"
+                "file": "Nginx/Config/Reverse Proxy.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nginx/Config/SSL.md",
+                "file": "Nginx/Config/Reverse Proxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,6 +182,7 @@
   "active": "c5c4077f4045dced",
   "lastOpenFiles": [
     "Nginx/Config/Configurations.md",
+    "Nginx/Config/Reverse Proxy.md",
     "Nginx/Config/SSL.md",
     "Kubernetes/Configuration Types.md",
     "Kubernetes/Get Port from pods.md",
@@ -212,7 +213,6 @@
     "Docker/Network.md",
     "Kubernetes",
     "Docker/Untitled.md",
-    "Docker/Utilities.md",
     "Docker",
     "OpenID",
     "Mobx",
