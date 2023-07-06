@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx/Config/Reverse Proxy.md",
+                "file": "Nginx/Config/SSL.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nginx/Config/Reverse Proxy.md",
+                "file": "Nginx/Config/SSL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nginx/Config/Reverse Proxy.md"
+                "file": "Nginx/Config/SSL.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nginx/Config/Reverse Proxy.md",
+                "file": "Nginx/Config/SSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
