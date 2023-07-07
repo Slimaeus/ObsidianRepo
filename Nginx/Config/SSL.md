@@ -16,7 +16,7 @@ server {
 
 server {
     listen 443 default_server http2 ssl;
-    listen [::]:443 default_ser http2 ssl;
+    listen [::]:443 default_server http2 ssl;
 
     server_name your_domain;
 
