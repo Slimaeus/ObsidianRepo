@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Introduction Screen.md",
+                "file": "Algorithms/Two Pointers.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flutter/Introduction Screen.md",
+                "file": "Algorithms/Two Pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flutter/Introduction Screen.md"
+                "file": "Algorithms/Two Pointers.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flutter/Introduction Screen.md",
+                "file": "Algorithms/Two Pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,10 +179,13 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "c5c4077f4045dced",
+  "active": "a3ffae24bca43142",
   "lastOpenFiles": [
-    "Flutter/Laucher Icon.md",
+    "Flutter/Shared Preferences.md",
+    "Algorithms/Two Pointers.md",
+    "Algorithms",
     "Flutter/Introduction Screen.md",
+    "Flutter/Laucher Icon.md",
     "Nginx/Config/SSL.md",
     "Flutter",
     "Nginx/Config/Configurations.md",
@@ -211,12 +214,9 @@
     "Kubernetes/Update Deployment.md",
     "Kubernetes/Kubernetes control.md",
     "Kubernetes/Minikube.md",
-    "Kubernetes/Scale.md",
-    "Docker/Images.md",
     "Kubernetes",
     "Docker",
     "OpenID",
-    "Mobx",
     "Pasted image 20230227124923.png",
     "Pasted image 20230227125349.png",
     "Pasted image 20230227125114.png",
