@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Two Pointers.md",
+                "file": "Algorithms/Sliding Window.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Two Pointers.md",
+                "file": "Algorithms/Sliding Window.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Two Pointers.md"
+                "file": "Algorithms/Sliding Window.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Two Pointers.md",
+                "file": "Algorithms/Sliding Window.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,10 +179,12 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "a3ffae24bca43142",
+  "active": "c5c4077f4045dced",
   "lastOpenFiles": [
-    "Flutter/Shared Preferences.md",
     "Algorithms/Two Pointers.md",
+    "Algorithms/Sliding Window.md",
+    "Algorithms/Untitled",
+    "Flutter/Shared Preferences.md",
     "Algorithms",
     "Flutter/Introduction Screen.md",
     "Flutter/Laucher Icon.md",
@@ -213,10 +215,8 @@
     "Kubernetes/Rollout History.md",
     "Kubernetes/Update Deployment.md",
     "Kubernetes/Kubernetes control.md",
-    "Kubernetes/Minikube.md",
     "Kubernetes",
     "Docker",
-    "OpenID",
     "Pasted image 20230227124923.png",
     "Pasted image 20230227125349.png",
     "Pasted image 20230227125114.png",
