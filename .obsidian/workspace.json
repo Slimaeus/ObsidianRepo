@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1cd2ca7e1520cd04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cơ sở dữ liệu nâng cao/Chu kỳ sống của CSDL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Sliding Window.md",
+                "file": "Cơ sở dữ liệu nâng cao/Chu kỳ sống của CSDL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Sliding Window.md"
+                "file": "Cơ sở dữ liệu nâng cao/Chu kỳ sống của CSDL.md"
               }
             }
           },
@@ -147,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Sliding Window.md",
+                "file": "Cơ sở dữ liệu nâng cao/Chu kỳ sống của CSDL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,8 +192,11 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "c5c4077f4045dced",
+  "active": "1cd2ca7e1520cd04",
   "lastOpenFiles": [
+    "Cơ sở dữ liệu nâng cao/Dẫn nhập.md",
+    "Cơ sở dữ liệu nâng cao/Chu kỳ sống của CSDL.md",
+    "Cơ sở dữ liệu nâng cao",
     "Algorithms/Two Pointers.md",
     "Algorithms/Sliding Window.md",
     "Algorithms/Untitled",
@@ -213,10 +229,7 @@
     "Kubernetes/Service",
     "Kubernetes/Undo Update Image.md",
     "Kubernetes/Rollout History.md",
-    "Kubernetes/Update Deployment.md",
-    "Kubernetes/Kubernetes control.md",
     "Kubernetes",
-    "Docker",
     "Pasted image 20230227124923.png",
     "Pasted image 20230227125349.png",
     "Pasted image 20230227125114.png",
